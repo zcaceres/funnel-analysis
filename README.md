@@ -28,6 +28,43 @@ Follow the interactive prompts to:
 3. Build your funnel by adding steps and conversion rates
 4. View the analysis results
 
+## Example Output
+
+```
+┌─────────────────────────────────────────────────────────┐
+│           CONVERSION FUNNEL ANALYSIS                   │
+└─────────────────────────────────────────────────────────┘
+
+💰 Customer LTV: $1200.00
+🎯 Max Acquisition Cost: $360.00 (30% of LTV)
+
+📊 FUNNEL BREAKDOWN:
+
+1. Ad Click
+   Conversion: 2.0%
+   Value at this step: $360.00 (30.0% of LTV)
+   → Max spend per action: $7.20
+   ↓
+2. Landing Page Visit
+   Conversion: 15.0%
+   Value at this step: $1800.00 (150.0% of LTV)
+   → Max spend per action: $270.00
+   ↓
+3. Sign Up
+   Conversion: 40.0%
+   Value at this step: $1800.00 (150.0% of LTV)
+   → Max spend per action: $720.00
+   ↓
+4. Purchase
+   Conversion: 50.0%
+   Value at this step: $1800.00 (150.0% of LTV)
+
+─────────────────────────────────────────────────────────
+
+📈 First Step Value: $360.00
+✅ Within budget! You can spend up to $360.00 on the first step.
+```
+
 ## Requirements
 
 - [Bun](https://bun.sh) runtime
